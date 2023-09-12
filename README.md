@@ -66,7 +66,7 @@ docker run -d -p 1521:1521 -e ORACLE_PASSWORD=SysPassword1 -v oracle-volume:/opt
 ### Script SQL  para crear la tabla ```Productos```
 
 1. clic en la opción ```Database``` de la barra de herramientas izquierda. Clic en ```Create connection```.
-2. Selecciona ```Oracle```. Usa los valores por default y sólo captura el password: ```SysPassword1 ``` (con espacio al final). Clic en ```Connect```.
+2. Selecciona ```Oracle```. Usa los valores por default y sólo captura el password: ```SysPassword1 ```. Clic en ```Connect```.
 3. Ir al script ```pos.sql``` en el Explorador de Archivos. Clic en ```Execute```.
 4. Refresca las tablase de la opción ```Database```. La tabla ```Productos``` vacía debe mostrarse.
 
